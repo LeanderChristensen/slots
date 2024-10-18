@@ -1,0 +1,66 @@
+body {
+	font-family: Verdana;
+}
+
+#main {
+	margin: 0 auto 0 auto;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 67px;
+}
+
+#bottom-div {
+	margin: -55px auto 0 auto;
+	width: 400px;
+	text-align: center;
+}
+
+.slot {
+	width: 50px;
+}
+
+#status {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 24px;
+	visibility: hidden;
+}
+
+#spin {
+	/* margin-left: 47%; */
+	cursor: pointer;
+	padding: 7px 25px;
+	background-color: #FFD700;
+	border: 0;
+	border-radius: 5px;
+	color: rgb(90, 90, 90);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#spin:hover {
+	background-color: #efcb00;
+}
+
+#spin:disabled {
+	background-color: #d0b100;
+	color: #a0a0a0;
+}
+
+#money {
+	text-align: left;
+	margin-left: 55px;
+}
+
+/* .score {
+	border: 1px solid black;
+} */
+
+.glow {
+	box-shadow: 0 0 40px 20px #FFD700;
+	border-radius: 50%;
+	background-color: #FFD700;
+}
